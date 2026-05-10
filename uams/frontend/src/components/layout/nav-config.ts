@@ -1,0 +1,95 @@
+import {
+  LayoutDashboard,
+  ClipboardList,
+  BookOpen,
+  BarChart2,
+  FileText,
+  PlusSquare,
+  CheckSquare,
+  Upload,
+  Users,
+  GraduationCap,
+  TrendingUp,
+  BadgeCheck,
+  Building2,
+  ShieldCheck,
+  School,
+  Layers,
+  LayoutGrid,
+  BookMarked,
+  CalendarDays,
+  Receipt,
+  LayoutList,
+  UserCheck,
+  Library,
+  Link2,
+} from 'lucide-react'
+import type { Role } from '@/types'
+
+export interface NavItem {
+  label: string
+  href:  string
+  icon:  React.ElementType
+}
+
+export const NAV_ITEMS: Record<Role, NavItem[]> = {
+  student: [
+    { label: 'Dashboard',    href: '/dashboard',             icon: LayoutDashboard },
+    { label: 'Assignments',  href: '/dashboard/assignments', icon: ClipboardList   },
+    { label: 'Quizzes',      href: '/dashboard/quizzes',     icon: BookOpen        },
+    { label: 'Results',      href: '/dashboard/results',     icon: BarChart2       },
+    { label: 'Transcripts',  href: '/dashboard/transcripts', icon: FileText        },
+  ],
+  teacher: [
+    { label: 'Dashboard',    href: '/dashboard',                       icon: LayoutDashboard },
+    { label: 'My Courses',   href: '/dashboard/my-courses',            icon: Library         },
+    { label: 'Assignments',  href: '/dashboard/assignments',           icon: PlusSquare      },
+    { label: 'Submissions',  href: '/dashboard/assignments/submissions', icon: CheckSquare   },
+    { label: 'Quizzes',      href: '/dashboard/quizzes',               icon: BookOpen        },
+    { label: 'Materials',    href: '/dashboard/materials',             icon: Upload          },
+  ],
+  admin: [
+    { label: 'Dashboard',          href: '/dashboard',             icon: LayoutDashboard },
+    { label: 'Control Panel',      href: '/dashboard/admin',       icon: LayoutGrid      },
+    { label: 'Users',              href: '/dashboard/users',       icon: Users           },
+    { label: 'Faculties',          href: '/dashboard/faculties',   icon: School          },
+    { label: 'Departments',        href: '/dashboard/departments', icon: Layers          },
+    { label: 'Programs',           href: '/dashboard/programs',    icon: BookMarked      },
+    { label: 'Courses & Sections', href: '/dashboard/courses',     icon: GraduationCap   },
+    { label: 'Teachers',           href: '/dashboard/teachers',    icon: GraduationCap   },
+    { label: 'Sessions',           href: '/dashboard/sessions',    icon: CalendarDays    },
+    { label: 'Students',           href: '/dashboard/students',    icon: Users           },
+    { label: 'Batches',            href: '/dashboard/batches',     icon: Layers          },
+    { label: 'Enrollment',          href: '/dashboard/enrollment',                    icon: Receipt       },
+    { label: 'Program Offerings',   href: '/dashboard/enrollment/program-offerings',  icon: GraduationCap },
+    { label: 'Semester Scheduling', href: '/dashboard/scheduling',                    icon: LayoutList    },
+    { label: 'Batch Assignment',    href: '/dashboard/scheduling/batch-assignment',   icon: UserCheck     },
+    { label: 'OBE Mapping',         href: '/dashboard/obe/mapping',                  icon: Link2         },
+  ],
+  dean: [
+    { label: 'Dashboard',        href: '/dashboard',                  icon: LayoutDashboard },
+    { label: 'Performance',      href: '/dashboard/performance',      icon: TrendingUp      },
+    { label: 'Results Approval', href: '/dashboard/results-approval', icon: BadgeCheck      },
+  ],
+  academic_coordinator: [
+    { label: 'Dashboard',          href: '/dashboard',             icon: LayoutDashboard },
+    { label: 'Faculties',          href: '/dashboard/faculties',   icon: School          },
+    { label: 'Departments',        href: '/dashboard/departments', icon: Layers          },
+    { label: 'Programs',           href: '/dashboard/programs',    icon: BookMarked      },
+    { label: 'Courses & Sections', href: '/dashboard/courses',     icon: GraduationCap   },
+    { label: 'Students',           href: '/dashboard/students',    icon: Users           },
+    { label: 'Batches',            href: '/dashboard/batches',     icon: Layers          },
+    { label: 'Enrollment',          href: '/dashboard/enrollment',                    icon: Receipt       },
+    { label: 'Program Offerings',   href: '/dashboard/enrollment/program-offerings',  icon: GraduationCap },
+    { label: 'Semester Scheduling', href: '/dashboard/scheduling',                    icon: LayoutList    },
+    { label: 'Batch Assignment',    href: '/dashboard/scheduling/batch-assignment',   icon: UserCheck     },
+    { label: 'OBE Mapping',         href: '/dashboard/obe/mapping',                  icon: Link2         },
+    { label: 'Reports',             href: '/dashboard/reports',                       icon: BarChart2     },
+  ],
+  super_admin: [
+    { label: 'Dashboard',     href: '/dashboard',              icon: LayoutDashboard },
+    { label: 'Universities',  href: '/dashboard/universities', icon: Building2       },
+    { label: 'Users',         href: '/dashboard/users',        icon: Users           },
+    { label: 'System',        href: '/dashboard/system',       icon: ShieldCheck     },
+  ],
+}
