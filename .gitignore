@@ -1,0 +1,15 @@
+# Claude Code memory — never commit personal session data
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+
+# Env files (each sub-project has its own .gitignore; belt-and-suspenders)
+!.env.example
+!.env.local.example
+config.bat
+node_modules
