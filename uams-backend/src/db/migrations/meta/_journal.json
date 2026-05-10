@@ -1,0 +1,167 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1777199716272,
+      "tag": "0000_secret_blackheart",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1777202566542,
+      "tag": "0001_magical_vapor",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1777378551319,
+      "tag": "0002_watery_butterfly",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1777391629292,
+      "tag": "0003_fuzzy_goblin_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1777442685421,
+      "tag": "0004_blue_the_hood",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1777446156413,
+      "tag": "0005_zippy_the_spike",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1777462301800,
+      "tag": "0006_unique_silk_fever",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1777525974816,
+      "tag": "0007_orange_maria_hill",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1777532230509,
+      "tag": "0008_cool_outlaw_kid",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1777630089653,
+      "tag": "0009_tiresome_brood",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1777634043486,
+      "tag": "0010_careful_the_executioner",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1777716254728,
+      "tag": "0011_crazy_deadpool",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1777716571909,
+      "tag": "0012_faithful_tiger_shark",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1777738237403,
+      "tag": "0013_woozy_frank_castle",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1777791340920,
+      "tag": "0014_spotty_norman_osborn",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1777853575508,
+      "tag": "0015_blushing_red_wolf",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1746389200000,
+      "tag": "0016_course_offering_section_to_batch",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1746475600000,
+      "tag": "0017_syllabus_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1746562000000,
+      "tag": "0018_obe_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1746648400000,
+      "tag": "0019_assessment_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1746734800000,
+      "tag": "0020_slot_room_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1746821200000,
+      "tag": "0021_class_schedules",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1746907600000,
+      "tag": "0022_class_schedule_unique_indexes",
+      "breakpoints": true
+    }
+  ]
+}

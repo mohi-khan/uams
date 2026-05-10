@@ -1,0 +1,1 @@
+ALTER TYPE "public"."role" ADD VALUE 'academic_coordinator' BEFORE 'teacher';
