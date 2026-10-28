@@ -13,3 +13,4 @@ Thumbs.db
 !.env.local.example
 config.bat
 node_modules
+.env
